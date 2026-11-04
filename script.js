@@ -3,6 +3,7 @@
 const titles = ["아이언맨"," 아이언맨2"," 아이언맨3", "인터스텔라","스파이더맨: 브랜드 뉴 데이"];
 const ratings = [ 7.7, 6.9, 6.9, 8.4, 8.4 ];
 const years = [2008,2010,2013,2014,2026];
+
 let sum = 0;
 for (let i = 0; i < ratings.length; i++) {
  sum = sum + ratings[i];
